@@ -30,10 +30,10 @@ st.sidebar.write(f"### MAPE: {mape}%")
 category_mappings = {
     "country": {"USA": 0, "Canada": 1, "Germany": 2},  # Example categories, replace with actual ones
     "store": {"Store_A": 0, "Store_B": 1, "Store_C": 2},
-    "product": {"Product_X": 0, "Product_Y": 1, "Product_Z": 2}
+    "product": {"Product_X": 0, "Product_Y": 1, "Product_Z": 2, "Product_D": 3}
 }
 
-# Feature names
+# Feature namesss
 feature_names = ['country', 'store', 'product', 'year', 'month', 'day', 'weekday', 'weekofyear']
 
 # Collect user input
